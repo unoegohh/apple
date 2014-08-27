@@ -1,0 +1,41 @@
+{% extends "UnoegohhShopBundle:Default:index.html.twig" %}
+
+{% block main %}
+    <div class="col2">
+        <h2 class="heading">Обратная связь</h2>
+        <div class="contact">
+
+            <form class="contact" method="POST" action="?">
+                {{ form_errors(form) }}
+                {{ form_row(form._token) }}
+                <div class="contact_form">
+                    <ul class="forms">
+                        <li class="txt">ФИО <small>(обязательно)</small></li>
+                        <li class="inputfield">
+                            {{ form_widget(form.name, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+                        <li class="txt">Email <small>(обязательно)</small></li>
+                        <li class="inputfield">
+                            {{ form_widget(form.email, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+                        <li class="txt">Сообщение <small>(обязательно)</small></li>
+                        <li class="textfield">
+                            {{ form_widget(form.text, {'attr': {'class': 'bar', 'rows' : '5'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+
+                        <li>
+                            <input type="submit" name="submit" value="Отправить заявку" class="simplebtnsmall" />
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

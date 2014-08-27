@@ -1,0 +1,14 @@
+
+{% for cat in menu %}
+    <a class="menuitem submenuheader" href="{{ path("unoegohh_shop_category", {"categoryName":cat1.engName}) }}" >{{ cat.Name }}</a>
+
+    {%  if cat.child %}
+        <div class="submenu">
+            <ul>
+                {% for cat1 in cat.child %}
+                    <li><a href="{{ path("unoegohh_shop_category", {"categoryName":cat1.engName}) }}">{{ cat1.Name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+{% endfor %}

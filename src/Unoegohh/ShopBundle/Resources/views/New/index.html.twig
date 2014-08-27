@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechArtStore - BassEGG</title>
+        <link rel="stylesheet" href="/css/index.css"/>
+        <meta name="viewport" content="width=1100" />
+        <link rel="stylesheet" href="/fancybox/jquery.fancybox.css"/>
+        <link rel="shortcut icon" href="/favicon.ico?v=2" />
+
+        <script type="text/javascript" src="/theme/js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="/fancybox/jquery.fancybox.js"></script>
+        <script>
+            {% for i in app.session.flashbag.get('notice') %}
+                $(function(){
+                    $.fancybox( '<h1>Заказ оформлен!</h1> <p>В ближайшее время с вами свяжутся наши специалисты!</p>' );
+                });
+            {% endfor %}
+
+        </script>
+
+        <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+
+        <script type="text/javascript">
+            VK.init({apiId: 4492999, onlyWidgets: true});
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="main_wrapper">
+                <div id="logo_wrapper">
+                    <a href="/"></a>
+                </div>
+                <div class="divider"></div>
+                <div id="header_text">
+                    <p>Мы продаем не просто электронику, <br/> а искусство современной технологии
+                    </p>
+
+                </div>
+                <div class="divider"></div>
+                <div id="header_phone">
+                    <p><i class="header_phone_icon icon"></i><a href="tel:88007005458">8-800-700-54-58</a>
+
+                        </p>
+                    <p class="small">звонок бесплатный для всех регионов РФ </p>
+                </div>
+                <div class="divider"></div>
+                <div id="lang_change">
+                    <a href="{{ path('unoegohh_shop_temp_index_ru') }}" class="active">RU</a>
+                    <a href="{{ path('unoegohh_shop_temp_index_eng') }}">EN</a>
+                </div>
+            </div>
+        </header>
+        <div id="main_banner">
+            {#<img src="/images/main_banner.png" alt=""/>#}
+        </div>
+        <div class="white_content">
+            <div class="main_wrapper">
+                <h1 class="center">Bass Egg Verb
+                    </h1>
+                <p class="center">
+                    Это новейшее изобретение в мире музыки, которое за счет вибрации превращает любую плоскую <br/>
+                    поверхность в динамик ( стекло, дерево, скейтборд и даже капот автомобиля).
+                </p><br/>
+                <div class="divider"></div><br/>
+                <p class="center">Чем больше поверхность , тем громче звучание.</p>
+                <p class="center">Bass Egg подключается через Bluetooth и стандартный разьем 3,5" audio jack. <br/>
+                    Совместим с iOS и Android.
+                </p>
+                <p class="center">В число прочих удобств конструкции вибродинамика можно отнести простоту управления, <br/>
+                    прочный корпус, небольшой размер и вес, составляющий всего 450 гр.
+                </p>
+                <p class="center">Полуторочасовая зарядка Bass Egg обеспечивает до 10+ часов постоянного звучания.
+                </p><br/>
+                <div class="divider"></div><br/>
+                <p class="center"><a href="{{ path("unoegohh_shop_temp_cart_ru") }}" class="main_button">Успей купить первым!</a></p>
+                <script type="text/javascript" src="//yandex.st/share/share.js"
+                        charset="utf-8"></script>
+
+
+
+                <br/>
+                <p class="center">Официальным дистрибьютором Bass Egg Verb на территории Российской Федерации является компания ООО"ТэкАрт" </p>
+                <div style="margin:0 auto;width: 250px;" class="yashare-auto-init" data-yashareL10n="ru"
+                     data-yashareType="button" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki"
+
+                        ></div>
+                <br/>
+            </div>
+            <!-- www.intagme.com -->
+            <!-- www.intagme.com -->
+
+            <iframe src="http://www.intagme.com/in/?u=YmFzc19lZ2dfcnVzc2lhfGlufDE2OHw1fDF8fHllc3w1fHVuZGVmaW5lZHx5ZXM=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:915px; height: 183px; margin:0 auto;display: block" ></iframe>
+        </div>
+
+        <div class="black_content">
+            <br/>
+            <p class="center"><img src="/images/bass_egg_logo.png" alt=""/></p>
+            <br/>
+            <p class="center">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/iAHuEid-WLQ?rel=0" frameborder="0" allowfullscreen></iframe> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <iframe width="560" height="315" src="//www.youtube.com/embed/3OeoQq40sWk?rel=0" frameborder="0" allowfullscreen></iframe>
+            </p>
+            <br/>
+        </div>
+        <footer>
+
+            <div class="main_wrapper">
+                <div id="footer_contacts">
+                    <p><i class="icon header_phone_icon"></i> 8-800-700-54-58</p>
+                    <p><i class="icon mail_icon"></i> info@techartstore.ru</p>
+                    <p><i class="icon geo_icon"></i> г. Самара, ул. Галактионовская 74</p>
+                </div>
+                <div class="divider"></div>
+                <div id="footer_icons">
+                    <a href="https://vk.com/basseggrus" target="_blank"><i class="icon vk_icon"></i></a>
+                    <a href="http://instagram.com/bass_egg_russia" target="_blank"><i class="icon insta_icon"></i></a>
+                </div>
+            </div>
+            <!-- Yandex.Metrika counter -->
+            <script type="text/javascript">
+                (function (d, w, c) {
+                    (w[c] = w[c] || []).push(function() {
+                        try {
+                            w.yaCounter25822088 = new Ya.Metrika({id:25822088,
+                                webvisor:true,
+                                clickmap:true,
+                                trackLinks:true,
+                                accurateTrackBounce:true});
+                        } catch(e) { }
+                    });
+
+                    var n = d.getElementsByTagName("script")[0],
+                            s = d.createElement("script"),
+                            f = function () { n.parentNode.insertBefore(s, n); };
+                    s.type = "text/javascript";
+                    s.async = true;
+                    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+                    if (w.opera == "[object Opera]") {
+                        d.addEventListener("DOMContentLoaded", f, false);
+                    } else { f(); }
+                })(document, window, "yandex_metrika_callbacks");
+            </script>
+            <noscript><div><img src="//mc.yandex.ru/watch/25822088" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <!-- /Yandex.Metrika counter -->
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+{% extends "UnoegohhShopBundle:Default:index.html.twig" %}
+
+{% block main %}
+    <div class="col2">
+        <h2 class="heading"><span class="colr"><span class="cufon cufon-canvas" style="width: 79px; height: 20px;"><canvas width="91" height="21" style="top: 0px; left: 0px;"></canvas><span class="cufon-alt">Contact </span></span></span><span class="cufon cufon-canvas" style="width: 22px; height: 20px;"><canvas width="32" height="21" style="top: 0px; left: 0px;"></canvas><span class="cufon-alt">Us</span></span></h2>
+        <div class="shoppingcart">
+            <ul class="carttop">
+                <li class="desc bold">Image and Description</li>
+                <li class="price bold">Price</li>
+            </ul>
+            <ul class="cartcont" ng-repeat="item in cart.items">
+                <li class="image">
+                    <a href="/item/[[ item.id ]]" style="width:63px; text-align: center">
+                        <img src="images/cart_thumb.gif" ng-src="[[ item.image ]]"
+                                                                     alt="[[item.name]]" alt="">
+                    </a>
+                </li>
+                <li class="desc">
+                    <h6><a href="/item/[[ item.id ]]" class="colr">[[item.name]]</a></h6>
+                </li>
+                <li class="price">
+                    [[ item.price ]] руб
+                </li>
+                <li class="qty">
+                    <a href="#" ng-click="upCount(item)"><img src="images/add.gif" alt=""></a>
+                    <input name="quantity" type="text" value="[[item.count]]">
+                    <a href="#"ng-click="downCount(item)"><img src="images/remove.gif" alt=""></a>
+                </li>
+                <li class="remove">
+                    <a href="#" ng-click="deleteOne($index)"><img src="images/delete.gif" alt=""></a>
+                </li>
+                <li class="total">
+                    [[item.count * item.price | number ]] руб
+                </li>
+            </ul>
+            <ul class="total bold">
+                <li class="txt">Итого</li>
+                <li class="price">[[ totalCart ]] руб</li>
+            </ul>
+            <div class="buttns">
+                <ul>
+                    <li><a href="#" class="simplebtn"><span>Оформить заказ</span></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,69 @@
+{% extends "UnoegohhShopBundle:Default:index.html.twig" %}
+
+{% block main %}
+    <div class="col2">
+        <h2 class="heading">Оформление заказа</h2>
+
+        <div class="contact">
+
+            <form method="POST" action="?">
+                {{ form_errors(form) }}
+                {{ form_row(form._token) }}
+                {{ form_row(form.order, {'attr' : {'value': "[[cartinstring]]" }}) }}
+                {{ form_row(form.totalPrice, {'attr' : {'value': "[[totalCart]]" }}) }}
+                <div class="contact_form">
+
+                    <ul class="forms">
+                        <li class="txt">ФИО <small>(обязательно)</small></li>
+                        <li class="inputfield">
+                            {{ form_widget(form.fio, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+                        <li class="txt">Email <small>(обязательно)</small></li>
+                        <li class="inputfield">
+                            {{ form_widget(form.email, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+                        <li class="txt">Адрес <small>(обязательно)</small></li>
+                        <li class="inputfield">
+                            {{ form_widget(form.address, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+                        <li class="txt">Телефон <small>(обязательно)</small></li>
+                        <li class="inputfield">
+                            {{ form_widget(form.phone, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+                        <li class="txt">Коментарий</li>
+                        <li class="textfield">
+                            {{ form_widget(form.descr, {'attr': {'class': 'bar', 'rows' : '5'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+
+                        <li>
+                            <input type="submit" name="submit" value="Отправить" class="simplebtnsmall" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="map">
+
+                    <h3>Наш адрес</h3>
+                    <p>{{ pref().address }}</p>
+                    <br/>
+
+                    <h3>Телефон</h3>
+                    <p>Наш офис: <span>{{ pref().phone }}</span></p>
+                    <br/>
+                    <h3>Email</h3>
+                    <p>{{ pref().email }}</p>
+                    <br/>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

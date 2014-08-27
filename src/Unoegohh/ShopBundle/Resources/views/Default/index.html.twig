@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Estore 17</title>
+    <!-- // Stylesheets // -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/contentslider.css" />
+    <link rel="stylesheet" type="text/css" href="/css/ddsmoothmenu.css" />
+    <link rel="stylesheet" type="text/css" href="/css/slider.css" />
+    <link rel="stylesheet" type="text/css" href="/css/list.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox-1.3.1.css" />
+    <!-- // Javascript // -->
+    <script type="text/javascript">
+        scart = {% if app.session.get('cart') %}{{ app.session.get('cart') |raw }}{% else %}{"items": []}{% endif %};
+    </script>
+    <script src="/js/angular.js"></script>
+    <script src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/jquery.min14.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.1.2.js"></script>
+    <script type="text/javascript" src="/js/contentslider.js"></script>
+    <script type="text/javascript" src="/js/jquery.anythingslider.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/anythingslider.js"></script>
+    <script type="text/javascript" src="/js/ddsmoothmenu.js"></script>
+    <script type="text/javascript" src="/js/menu.js"></script>
+    <script type="text/javascript" src="/js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="/js/scroller.js"></script>
+    <script type="text/javascript" src="/js/ddaccordion.js"></script>
+    <script type="text/javascript" src="/js/acordn.js"></script>
+    <script type="text/javascript" src="/js/paging.js"></script>
+    <script type="text/javascript" src="/js/switch.js"></script>
+    <script type="text/javascript" src="/js/jquery.fancybox-1.3.1.js"></script>
+    <script type="text/javascript" src="/js/lightbox.js"></script>
+    <script type="text/javascript" src="/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="/js/Trebuchet_MS_400-Trebuchet_MS_700-Trebuchet_MS_italic_700-Trebuchet_MS_italic_400.font.js"></script>
+    <script type="text/javascript" src="/js/cufon.js"></script>
+    <script type="text/javascript" src="/js/animatedcollapse.js"></script>
+    <script type="text/javascript" src="/js/toglrcollapse.js"></script>
+</head>
+
+<body ng-controller="DefaultController">
+<a name="top"></a>
+<div id="wrapper_sec">
+<!-- Header Section -->
+<div id="masthead">
+    <div class="logo">
+        <a href="/"><img src="/images/logo.png" alt="" /></a>
+    </div>
+    <div class="navigation">
+        <div class="left_curve">&nbsp;</div>
+        <div id="smoothmenu1" class="ddsmoothmenu">
+            <ul>
+                {#{{ render(controller('UnoegohhShopBundle:Render:menu')) }}#}
+
+                <li><a href="#" class="link">Главная</a>
+                    <ul>
+                        <li><a href="listing.html">Clutches</a></li>
+                        <li><a href="listing.html">Hobos</a></li>
+                        <li><a href="listing.html">Oversized Bags</a>
+                        </li>
+                        <li><a href="listing.html">Totes</a></li>
+                        <li><a href="listing.html">Wallets</a></li>
+                        <li><a href="listing.html">Small Bags</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            <br style="clear: left" />
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+    {% if banners %}
+<div id="banner">
+    <div id="slider2" class="sliderwrapper">
+        {% for banner in banners %}
+            <div class="contentdiv">
+                {% if banner.url %}
+                    <a href="{{ banner.url }}">
+                {% endif %}
+                <img src="{{ banner.getImageUrl }}" alt="" />
+                {% if banner.url %}
+                    </a>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+    <div id="paginate-slider2" class="pagination">
+        {% for banner in banners %}
+            <a href="{{ banner.url}}" class="toc">
+                <span class="thumb"><img src="images/icon2.png" alt="" /></span>
+                <span class="link">{{ banner.name }}</span></a>
+
+        {% endfor %}
+    </div>
+    <script type="text/javascript" src="/js/cont_slidr1.js"></script>
+</div>
+    {% endif %}
+<div class="clear"></div>
+<div class="content_sec">
+<div class="curve_top">&nbsp;</div>
+<div class="curve_center">
+    <div class="crumb">
+        <ul class="breadcrumb">
+            <li><a href="#"><img src="/images/home.gif" alt="" /></a></li>
+            {#<li><a href="#">Desktop PCs</a></li>#}
+            {#<li><a href="#">Laptop PCs</a></li>#}
+            {#<li><a href="#">DVD Players</a></li>#}
+        </ul>
+        <div id="jason">
+            <h6>Корзина</h6>
+            <ul>
+                <li  ng-repeat="item in cart.items">
+                    <div class="thumb"><a href="detail.html" style="width: 63px; text-align: center;display: inline-block"><img style="height: 63px;" ng-src="[[ item.image ]]" alt="" /></a></div>
+                    <div class="detail">
+                        <a href="/item/[[ item.id ]]" class="title">[[item.name]]</a>
+                        <p class="bold">[[item.count]] x [[item.price ]] руб</p>
+                    </div>
+                </li>
+                <li class="last">
+                    <a href="#" class="simplebtnsmall right"><span>Оформить</span></a>
+                </li>
+            </ul>
+        </div>
+        <ul class="crumb_cart">
+            <li>
+                <a href="javascript:animatedcollapse.toggle('jason')" class="cartbtn">
+                    <img src="/images/shoppingcart.gif" alt="" />
+                    <span class="marg">Корзина:</span>
+                    <span class="marg">[[ itemsInCart]] Товара</span>
+                    <span class="marg">[[ totalCart ]] руб.</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="col1">
+        <!-- Categories -->
+        <div class="category">
+            <div class="small_heading">
+                <h5 class="colr">Категории</h5>
+            </div>
+
+            <div class="glossymenu">
+                {{ render(controller('UnoegohhShopBundle:Render:categories')) }}
+
+            </div>
+            <div class="clear"></div>
+            <div class="left_botm">&nbsp;</div>
+        </div>
+        {#<div class="adv">#}
+            {#<div class="small_heading">#}
+                {#<h5 class="colr">Advertise Here</h5>#}
+            {#</div>#}
+            {#<div class="clear"></div>#}
+            {#<div class="anythingSlider">#}
+                {#<div class="wrapper">#}
+                    {#<ul>#}
+                        {#<li><a href="#"><img src="images/ad1.gif" alt="" /></a></li>#}
+                        {#<li><a href="#"><img src="images/ad2.gif" alt="" /></a></li>#}
+                        {#<li><a href="#"><img src="images/ad3.gif" alt="" /></a></li>#}
+                        {#<li><a href="#"><img src="images/ad4.gif" alt="" /></a></li>#}
+                    {#</ul>#}
+                {#</div>#}
+            {#</div>#}
+            {#<div class="clear"></div>#}
+            {#<div class="left_botm">&nbsp;</div>#}
+        {#</div>#}
+    </div>
+    <div class="col2">
+
+        {% block main %}
+            <h2 class="heading">Популярные товары</h2>
+            <div class="listing">
+                <ul>
+                    {% for item in products %}
+                    <li>
+                        <a href="{{ path("unoegohh_shop_item", {"id": item.id}) }}"  class="thumb"><img  src="{{ item.photos[0].url }}" alt="" /></a>
+                        <a href="{{ path("unoegohh_shop_item", {"id": item.id}) }}" class="title">{{ item.name }} <br/>{{ item.getCategoryId.name }}</a>
+                        <p class="colr bold price">{{ item.price }} руб.</p>
+                        <a href="#" class="cart"   ng-click="addToCart({{ item.id }}, {{ item.price }},count,'{{ item.name }}', '{{ item.photos[0].url }}')">&nbsp;</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endblock %}
+    </div>
+</div>
+<div class="curve_botm">&nbsp;</div>
+</div>
+<div class="clear"></div>
+<!-- Footer Section -->
+<div id="footer">
+    <div class="copyrights">
+        <p class="left">Copyright ©2010 DUMMY. All Rights Reserved</p>
+        <p class="powerdby right">Powered By: <a href="#">ABC - Technologies</a></p>
+    </div>
+</div>
+</div>
+</body>
+</html>

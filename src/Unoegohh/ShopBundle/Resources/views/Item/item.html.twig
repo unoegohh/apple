@@ -1,0 +1,55 @@
+{% extends "UnoegohhShopBundle:Default:index.html.twig" %}
+
+{% block main %}
+    <h2 class="heading">{{ product.name }}</h2>
+    <div class="prod_detail">
+        <div class="big_thumb">
+            <div id="slider2">
+                {% for photo in product.photos %}
+                    <div class="contentdiv">
+                        <img src="{{ photo.url }}" alt="" />
+                        <a rel="example_group" href="{{ photo.url }}"  class="zoom">&nbsp;</a>
+                    </div>
+                {% endfor %}
+            </div>
+            <a href="javascript:void(null)" class="prevsmall"><img src="/images/prev.gif" alt="" /></a>
+            <div style="float:left; width:189px !important; overflow:hidden;">
+                <div class="anyClass" id="paginate-slider2">
+                    <ul>
+                        {% for photo in product.photos %}
+                            <li><a href="#" class="toc"><img src="{{ photo.url }}" alt="" /></a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <a href="javascript:void(null)" class="nextsmall"><img src="/images/next.gif" alt="" /></a>
+            <script type="text/javascript" src="/js/cont_slidr.js"></script>
+        </div>
+        <div class="desc">
+            <div class="des_head">
+                <h4 class="colr left">Описание</h4>
+                <h4 class="black right">{{ product.price }} руб.</h4>
+            </div>
+            <div class="clear"></div>
+            <div class="quickreview">
+                <p>
+                    {{ product.description | nl2br }}
+                </p>
+                <br />
+                <div class="clear"></div>
+                <br /><br />
+            </div>
+            <div class="addtocart">
+                <div class="clear"></div>
+                <ul class="left qt">
+                    <li class="bold qty">Кол-во</li>
+                    <li><input name="qty" type="text" class="bar" value="1"/></li>
+                    <li><a href="cart.html" class="simplebtnsmall"><span>Добавить в корзину</span></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    </div></div></div>
+{% endblock %}

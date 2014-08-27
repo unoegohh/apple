@@ -1,0 +1,12 @@
+{% extends "UnoegohhShopBundle:Default:index.html.twig" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+{% block main %}
+
+    <div class="col2">
+        <h2 class="heading">{{ page.title }}</h2>
+        <div class="static">
+            <p>{{ page.text | raw }}</p>
+        </div>
+    </div>
+{% endblock %}
