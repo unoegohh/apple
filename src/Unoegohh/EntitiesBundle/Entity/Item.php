@@ -23,7 +23,7 @@ class Item
     protected $name;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string",length=65535)
      */
     protected $description;
 
