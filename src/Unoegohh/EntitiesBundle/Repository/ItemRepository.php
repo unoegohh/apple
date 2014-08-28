@@ -9,7 +9,7 @@ use Unoegohh\UserBundle\Entity\User;
 
 class ItemRepository extends EntityRepository
 {
-    public function getProductsByCategory(ItemCategory $category = null, $page,$limit)
+    public function getProductsByCategory(ItemCategory $category = null, $page,$limit = null)
     {
         $qb = $this->createQueryBuilder('u');
         if($category){
@@ -22,9 +22,12 @@ class ItemRepository extends EntityRepository
             $qb
                 ->where($qb->expr()->in('u.category_id', $ids));
         }
-        $qb
-        ->setFirstResult(($page-1)*$limit)
-        ->setMaxResults($limit);
+        if($limit){
+
+            $qb
+                ->setFirstResult(($page-1)*$limit)
+                ->setMaxResults($limit);
+        }
 
         $result =array();
         $result['items'] = $qb->getQuery()->getResult();
@@ -41,7 +44,13 @@ class ItemRepository extends EntityRepository
             $qb
                 ->where($qb->expr()->in('u.category_id', $ids));
         }
-        $result['total'] = ceil($qb->getQuery()->getSingleScalarResult()/$limit);
+        if($limit){
+            $result['total'] = ceil($qb->getQuery()->getSingleScalarResult()/$limit);
+
+        }else{
+            $result['total'] = ceil($qb->getQuery()->getSingleScalarResult());
+
+        }
 
         return $result;
     }

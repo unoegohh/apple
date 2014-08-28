@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077755bf-00f9-4106-a6ab-72e1a97d8eeb" name="Default" comment="" />
+    <list default="true" id="077755bf-00f9-4106-a6ab-72e1a97d8eeb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Controller/ItemController.php" afterPath="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Controller/ItemController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Repository/ItemRepository.php" afterPath="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Repository/ItemRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/ShopController.php" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/ShopController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/edit.html.twig" afterPath="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="apple.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +36,79 @@
       <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="10" selection-start="4157" selection-end="4157" vertical-scroll-proportion="2.2051282" vertical-offset="0" max-vertical-offset="3075">
+            <state line="120" column="56" selection-start="5652" selection-end="5652" vertical-scroll-proportion="0.4125" vertical-offset="1635" max-vertical-offset="3075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/Item.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="7" selection-start="528" selection-end="528" vertical-scroll-proportion="0.625" vertical-offset="390" max-vertical-offset="3855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuItemRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Repository/MenuItemRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Repository/ItemRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="76" selection-start="1519" selection-end="1519" vertical-scroll-proportion="-8.75" vertical-offset="495" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Controller/ItemController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="31" selection-start="1090" selection-end="1090" vertical-scroll-proportion="19.375" vertical-offset="960" max-vertical-offset="2490">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="143" column="10" selection-start="6253" selection-end="6253" vertical-scroll-proportion="-14.166667" vertical-offset="1805" max-vertical-offset="2280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="26" selection-start="2162" selection-end="2162" vertical-scroll-proportion="-15.416667" vertical-offset="200" max-vertical-offset="945">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="79" selection-start="2037" selection-end="2037" vertical-scroll-proportion="-9.166667" vertical-offset="470" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="18" selection-start="581" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -41,88 +123,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/ShopController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="34" selection-start="3201" selection-end="3201" vertical-scroll-proportion="-13.5" vertical-offset="906" max-vertical-offset="1785">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Order/form.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-5.1666665" vertical-offset="272" max-vertical-offset="870">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Order/edit.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="18" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-5.9166665" vertical-offset="278" max-vertical-offset="930">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminOrder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/AdminOrder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="699" selection-end="699" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderForm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Form/OrderForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactSent.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contactSent.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="129" selection-end="306" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orderSent.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/orderSent.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="122" selection-end="318" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="165">
-              <folding>
-                <element signature="tag#div#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/StaticPage/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="294" selection-end="294" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
-              <folding>
-                <element signature="tag#div#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -146,9 +155,7 @@
         <option value="$PROJECT_DIR$/web/js/contentslider.js" />
         <option value="$PROJECT_DIR$/web/js/paging.js" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/RenderController.php" />
-        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig" />
         <option value="$PROJECT_DIR$/web/js/angular.js" />
-        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig" />
         <option value="$PROJECT_DIR$/web/js/app.js" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/cart.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
@@ -159,12 +166,19 @@
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/order.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Form/CashForm.php" />
         <option value="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/Order.php" />
-        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/ShopController.php" />
         <option value="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Order/form.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/AdminOrder.php" />
         <option value="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Order/edit.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/orderSent.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/StaticPage/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/ItemCategory.php" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/Item.php" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Controller/ItemController.php" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/ShopController.php" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Repository/ItemRepository.php" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig" />
       </list>
     </option>
@@ -174,7 +188,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -626,6 +640,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unoegohh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntitiesBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -943,19 +983,41 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="077755bf-00f9-4106-a6ab-72e1a97d8eeb" name="Default" comment="" />
       <created>1408021887718</created>
       <updated>1408021887718</updated>
     </task>
+    <task id="LOCAL-00001" summary="erferf">
+      <created>1409163758812</created>
+      <updated>1409163758812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -968,11 +1030,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -987,36 +1050,13 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="erferf" />
+    <option name="LAST_COMMIT_MESSAGE" value="erferf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.dist.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="49" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/ItemForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="10" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="9" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="975" />
@@ -1079,30 +1119,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/cufon-yui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/cufon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/Item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="27.5" vertical-offset="660" max-vertical-offset="3855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/ItemCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="20" selection-start="1017" selection-end="1022" vertical-scroll-proportion="-12.5" vertical-offset="330" max-vertical-offset="2670">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/MainBanner/form.html.twig">
@@ -1122,14 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/acordn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="99" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="355" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
+        <state line="12" column="99" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/RenderController.php">
@@ -1139,135 +1154,142 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/paging.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="82" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="27" column="82" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/contentslider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="63" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3525">
-          <folding>
-            <marker date="1408889659000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="14" column="63" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="47" selection-start="126164" selection-end="126164" vertical-scroll-proportion="0.0" vertical-offset="3146" max-vertical-offset="3630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="945">
-          <folding />
-        </state>
+        <state line="236" column="47" selection-start="126164" selection-end="126164" vertical-scroll-proportion="0.0" vertical-offset="3146" max-vertical-offset="3630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="2318" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="2595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="74" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="900">
-          <folding />
-        </state>
+        <state line="63" column="22" selection-start="2318" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="2595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="18" selection-start="1840" selection-end="1840" vertical-scroll-proportion="-10.615385" vertical-offset="1434" max-vertical-offset="45090">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="8.75" vertical-offset="525" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="114" column="18" selection-start="1840" selection-end="1840" vertical-scroll-proportion="-10.615385" vertical-offset="1434" max-vertical-offset="45090" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="10" selection-start="81" selection-end="1615" vertical-scroll-proportion="-6.1282053" vertical-offset="92" max-vertical-offset="690">
-          <folding />
-        </state>
+        <state line="38" column="10" selection-start="81" selection-end="1615" vertical-scroll-proportion="-6.1282053" vertical-offset="92" max-vertical-offset="690" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/cart.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="3" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/New/cart.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1920">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1920" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/order.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="25" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-7.282051" vertical-offset="377" max-vertical-offset="1110">
-          <folding />
-        </state>
+        <state line="63" column="25" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-7.282051" vertical-offset="377" max-vertical-offset="1110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="28" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-31.875" vertical-offset="75" max-vertical-offset="3930">
-          <folding />
-        </state>
+        <state line="57" column="28" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-31.875" vertical-offset="75" max-vertical-offset="3930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Form/CashForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Form/OrderForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/ShopController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="34" selection-start="3201" selection-end="3201" vertical-scroll-proportion="-13.5" vertical-offset="906" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/AdminOrder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="699" selection-end="699" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="20" column="39" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Order/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-5.1666665" vertical-offset="272" max-vertical-offset="870">
+        <state line="45" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Order/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-5.9166665" vertical-offset="278" max-vertical-offset="930">
+        <state line="28" column="18" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contactSent.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="129" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/orderSent.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="122" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/StaticPage/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="10" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/StaticPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="43" selection-start="595" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/ItemCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="46" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="35" selection-start="1329" selection-end="1456" vertical-scroll-proportion="-4.375" vertical-offset="525" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/ShopController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="35" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="528" selection-end="528" vertical-scroll-proportion="0.625" vertical-offset="390" max-vertical-offset="3855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Repository/MenuItemRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
           <folding />
         </state>
       </provider>
@@ -1279,34 +1301,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contactSent.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Controller/ItemController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="129" selection-end="306" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
+        <state line="40" column="31" selection-start="1090" selection-end="1090" vertical-scroll-proportion="19.375" vertical-offset="960" max-vertical-offset="2490">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/orderSent.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Repository/ItemRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="122" selection-end="318" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="165">
-          <folding>
-            <element signature="tag#div#0" expanded="false" />
-          </folding>
+        <state line="50" column="76" selection-start="1519" selection-end="1519" vertical-scroll-proportion="-8.75" vertical-offset="495" max-vertical-offset="1185">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/StaticPage/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="294" selection-end="294" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
-          <folding>
-            <element signature="tag#div#0" expanded="false" />
-          </folding>
+        <state line="143" column="10" selection-start="6253" selection-end="6253" vertical-scroll-proportion="-14.166667" vertical-offset="1805" max-vertical-offset="2280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="26" selection-start="2162" selection-end="2162" vertical-scroll-proportion="-15.416667" vertical-offset="200" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="79" selection-start="2037" selection-end="2037" vertical-scroll-proportion="-9.166667" vertical-offset="470" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="581" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="735">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="10" selection-start="4157" selection-end="4157" vertical-scroll-proportion="2.2051282" vertical-offset="0" max-vertical-offset="3075">
+        <state line="120" column="56" selection-start="5652" selection-end="5652" vertical-scroll-proportion="0.4125" vertical-offset="1635" max-vertical-offset="3075">
           <folding />
         </state>
       </provider>

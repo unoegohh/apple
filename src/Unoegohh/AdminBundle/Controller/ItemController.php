@@ -38,6 +38,7 @@ class ItemController extends Controller
 
         $food = new Item();
 
+        $food->setActive(true);
         $form = $this->createForm(new ItemForm(), $food);
 
         $form->handleRequest($request);
