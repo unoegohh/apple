@@ -52,17 +52,7 @@
             <ul>
                 {#{{ render(controller('UnoegohhShopBundle:Render:menu')) }}#}
 
-                <li><a href="#" class="link">Главная</a>
-                    <ul>
-                        <li><a href="listing.html">Clutches</a></li>
-                        <li><a href="listing.html">Hobos</a></li>
-                        <li><a href="listing.html">Oversized Bags</a>
-                        </li>
-                        <li><a href="listing.html">Totes</a></li>
-                        <li><a href="listing.html">Wallets</a></li>
-                        <li><a href="listing.html">Small Bags</a></li>
-                    </ul>
-                </li>
+                {{ render(controller('UnoegohhShopBundle:Render:menu')) }}
 
             </ul>
             <br style="clear: left" />
@@ -103,6 +93,7 @@
     <div class="crumb">
         <ul class="breadcrumb">
             <li><a href="#"><img src="/images/home.gif" alt="" /></a></li>
+            {% block breadCrumbs %}{% endblock %}
             {#<li><a href="#">Desktop PCs</a></li>#}
             {#<li><a href="#">Laptop PCs</a></li>#}
             {#<li><a href="#">DVD Players</a></li>#}

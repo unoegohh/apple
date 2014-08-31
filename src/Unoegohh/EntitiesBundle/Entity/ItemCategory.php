@@ -28,6 +28,11 @@ class ItemCategory
     protected $engName;
 
     /**
+     * @ORM\Column(type="boolean", nullable=true)
+     */
+    protected $withOutCart;
+
+    /**
      * @ORM\Column(type="string", nullable=true)
      */
     protected $descr;
@@ -170,5 +175,22 @@ class ItemCategory
     {
         return $this->engName;
     }
+
+    /**
+     * @param mixed $withOutCart
+     */
+    public function setWithOutCart($withOutCart)
+    {
+        $this->withOutCart = $withOutCart;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getWithOutCart()
+    {
+        return $this->withOutCart;
+    }
+
 
 }

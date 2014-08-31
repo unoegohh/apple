@@ -500,7 +500,7 @@ ul.crumb_cart li a .marg{
 	width:698px;
 	height:205px;
 	margin-bottom:20px;
-	margin-right:20px;
+	margin-right:15px;
 	border:#cdcdcd solid 1px;
 	background-color:#fff;
 }
@@ -1175,7 +1175,7 @@ a.addcart {
 }
 .prod_detail .big_thumb{
 	width:238px;
-	height:400px;
+	/*height:400px;*/
 	background-color:#f8f7f7;
 	border:#ededed solid 1px;
 	float:left;
@@ -2930,6 +2930,9 @@ ul.forms li.radiobtn .labletxt{
 	overflow:hidden;
 	float:left;
 	border:#d3d3d3 solid 3px;
+}
+.news_thumb img {
+    width: 124px;
 }
 .news ul li .news_desc{
 	width:530px;

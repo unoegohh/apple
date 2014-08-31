@@ -1,28 +1,17 @@
-
-
-<nav class="primary">
-    <a class="menu-select" href="#">Меню</a>
-    <ul>
-
+<ul>
     {% for item in menu %}
+    <li><a href="{% if item.staticPage %}/{{ item.staticPage.url }}{% elseif item.url %}{{ item.url }}{% else %}/{% endif %}" class="link">{{ item.name }}</a>
 
-        <li>
-
-            <a class="{% if item.child.count> 0 %}parent{% endif %}" href="{% if item.staticPage %}/{{ item.staticPage.url }}{% elseif item.url %}{{ item.url }}{% else %}/{% endif %}">
-                {{ item.name }}
-            </a>
-            {% if item.child.count > 0 %}
-                <ul class="sub">
-                    {% for child in item.child %}
-                        <li>
-                            <a href="{% if child.staticPage %}/{{ child.staticPage.url }}{% else %}{{ child.url }}{% endif %}">{{ child.name }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
-        </li>
-
+        {% if item.child.count > 0 %}
+        <ul>
+            {% for child in item.child %}
+            <li><a href="{% if child.staticPage %}/{{ child.staticPage.url }}{% else %}{{ child.url }}{% endif %}">{{ child.name }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </li>
     {% endfor %}
-    </ul>
-</nav><!-- .primary -->
+
+</ul>
+
+

@@ -1,5 +1,14 @@
 {% extends "UnoegohhShopBundle:Default:index.html.twig" %}
+
+            {% block breadCrumbs %}
+
+                <li><a href="/category">Категории</a></li>
+            {% endblock %}
+            {#<li><a href="#">Desktop PCs</a></li>#}
+            {#<li><a href="#">Laptop PCs</a></li>#}
+            {#<li><a href="#">DVD Players</a></li>#}
 {% block main %}
+
     <div class="col2">
     <div class="sorting">
         <div id="page_navigation">
@@ -22,7 +31,9 @@
                 <a href="{{ path("unoegohh_shop_item", {"id": product.id}) }}" class="thumb"><img src="{{ product.photos[0].url }}" alt=""></a>
                 <a href="{{ path("unoegohh_shop_item", {"id": product.id}) }}" class="title">{{ product.name }} <br/> <br/></a>
                 <p class="colr bold price">{{ product.price }} руб.</p>
-                <a href="#"    ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="cart">&nbsp;</a>
+                {% if category.withOutCart != 1 %}
+                    <a href="#"    ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="cart">&nbsp;</a>
+                {% endif %}
             </div>
             <div class="big_li_sec_right">
                 <h2 class="colr">{{ product.name }}</h2>
@@ -36,7 +47,9 @@
                 <br>
                 <div class="clear"></div>
                 <a href="{{ path("unoegohh_shop_item", {"id": product.id}) }}" class="simplebtnsmall right"><span>Подробнее</span></a>
-                <a href="#" ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="simplebtnsmall right btnmarg"><span>Добавить в корзину</span></a>
+                {% if category.withOutCart != 1 %}
+                    <a href="#" ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="simplebtnsmall right btnmarg"><span>Добавить в корзину</span></a>
+                {% endif %}
             </div>
         </li>
     {% endfor %}
