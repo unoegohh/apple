@@ -8,7 +8,7 @@
             <form class="contact" method="POST" action="?">
                 {{ form_errors(form) }}
                 {{ form_row(form._token) }}
-                <div class="contact_form">
+                <div class="contact_form" style="margin: 0 20px 0 0 ">
                     <ul class="forms">
                         <li class="txt">ФИО <small>(обязательно)</small></li>
                         <li class="inputfield">
@@ -34,6 +34,9 @@
                         </li>
                     </ul>
                 </div>
+                <p>Контактный телефон: <br/> {{ pref().phone }}</p>
+                <p>Адрес: <br/>  {{ pref().address }}</p>
+                <p>Email: <br/>  {{ pref().email }}</p>
             </form>
         </div>
     </div>
