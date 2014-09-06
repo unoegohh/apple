@@ -28,7 +28,7 @@ class SitePref
     protected $email;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", length=1048)
      */
     protected $address;
 

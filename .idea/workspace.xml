@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="077755bf-00f9-4106-a6ab-72e1a97d8eeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/SitePrefForm.php" afterPath="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/SitePrefForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/SitePref.php" afterPath="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/SitePref.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="apple.iws" />
@@ -44,10 +44,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SitePrefForm.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SitePrefForm.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/SitePrefForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="25" selection-start="507" selection-end="507" vertical-scroll-proportion="0.47215497" vertical-offset="0" max-vertical-offset="555">
+            <state line="16" column="25" selection-start="507" selection-end="507" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticPage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/StaticPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="43" selection-start="595" selection-end="608" vertical-scroll-proportion="-0.625" vertical-offset="495" max-vertical-offset="1965">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SitePref.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/SitePref.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="45" selection-start="533" selection-end="533" vertical-scroll-proportion="0.69007266" vertical-offset="150" max-vertical-offset="2220">
               <folding />
             </state>
           </provider>
@@ -66,15 +84,6 @@
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contact.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="10" selection-start="1839" selection-end="1839" vertical-scroll-proportion="-13.208333" vertical-offset="298" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/category.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="97" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -107,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="37" selection-start="154" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -129,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Form/TaskType.php" />
         <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/new.html.twig" />
         <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/cute.html.twig" />
         <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Controller/DemoController.php" />
@@ -180,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Render/menu.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contact.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/SitePrefForm.php" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/SitePref.php" />
       </list>
     </option>
   </component>
@@ -1108,7 +1108,11 @@
       <created>1410020402877</created>
       <updated>1410020402877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="erferf">
+      <created>1410020982919</created>
+      <updated>1410020982919</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1176,11 +1180,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="9" selection-start="834" selection-end="834" vertical-scroll-proportion="0.31213018" vertical-offset="299" max-vertical-offset="975" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="15" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
@@ -1294,11 +1293,6 @@
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/StaticPage/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="10" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/StaticPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="43" selection-start="595" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1980" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/index.html.twig">
@@ -1452,7 +1446,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/SitePrefForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="507" selection-end="507" vertical-scroll-proportion="0.47215497" vertical-offset="0" max-vertical-offset="555">
+        <state line="16" column="25" selection-start="507" selection-end="507" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/StaticPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="43" selection-start="595" selection-end="608" vertical-scroll-proportion="-0.625" vertical-offset="495" max-vertical-offset="1965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/SitePref.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="45" selection-start="533" selection-end="533" vertical-scroll-proportion="0.69007266" vertical-offset="150" max-vertical-offset="2220">
           <folding />
         </state>
       </provider>
