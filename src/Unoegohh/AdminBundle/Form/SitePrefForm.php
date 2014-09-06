@@ -13,7 +13,7 @@ class SitePrefForm extends AbstractType
         $builder
             ->add('phone')
             ->add('email')
-            ->add('address')
+            ->add('address', 'textarea')
             ->add('sign')
         ;
     }
