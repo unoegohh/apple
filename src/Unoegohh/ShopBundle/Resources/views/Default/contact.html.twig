@@ -34,8 +34,8 @@
                         </li>
                     </ul>
                 </div>
-                <p>Контактный телефон: <br/> {{ pref().phone }}</p>
-                <p>Адрес: <br/>  {{ pref().address }}</p>
+                <p>Контактный телефон: <br/> {{ pref().phone | nl2br}}</p>
+                <p>Адрес: <br/>  {{ pref().address | nl2br}}</p>
                 <p>Email: <br/>  {{ pref().email }}</p>
             </form>
         </div>
