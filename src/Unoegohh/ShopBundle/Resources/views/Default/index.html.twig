@@ -44,7 +44,7 @@
 <!-- Header Section -->
 <div id="masthead">
     <div class="logo">
-        <a href="/"><img src="/logo.png" alt="" /></a>
+        <a href="/"><img src="/IremontLogo.png" style="height: 75px; margin: 0 0 0 15px" alt="" /></a>
     </div>
     <div class="navigation">
         <div class="left_curve">&nbsp;</div>
@@ -76,8 +76,8 @@
     <div id="paginate-slider2" class="pagination">
         {% for banner in banners %}
             <a href="{{ banner.url}}" class="toc">
-                <span class="thumb"><img src="images/icon2.png" alt="" /></span>
-                <span class="link">{{ banner.name }}</span></a>
+                {#<span class="thumb"><img src="images/icon2.png" alt="" /></span>#}
+                <span style="margin: 0 0 0 20px " class="link">{{ banner.name }}</span></a>
 
         {% endfor %}
     </div>
@@ -180,8 +180,8 @@
 <!-- Footer Section -->
 <div id="footer">
     <div class="copyrights">
-        <p class="left">Copyright ©2010 DUMMY. All Rights Reserved</p>
-        <p class="powerdby right">Powered By: <a href="#">ABC - Technologies</a></p>
+        <p class="left">Copyright ©2014</p>
+        {#<p class="powerdby right">Powered By: <a href="#">ABC - Technologies</a></p>#}
     </div>
 </div>
 </div>
