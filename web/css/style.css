@@ -432,8 +432,8 @@ ul.crumb_cart li a .marg{
 	float:left;
 	width:158px;
 	height:205px;
-	margin-bottom:20px;
-	margin-right:20px;
+	margin-bottom:15px;
+	margin-right:15px;
 	border:#cdcdcd solid 1px;
 	background-color:#fff;
 }
@@ -443,6 +443,7 @@ ul.crumb_cart li a .marg{
 .listing ul li .thumb{
 	float:left;
     width:158px;
+    margin: 8px 0 0 0;
     text-align: center;
 }
 .listing ul li .thumb img{

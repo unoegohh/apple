@@ -30,9 +30,11 @@
             <div class="big_li_sec">
                 <a href="{{ path("unoegohh_shop_item", {"id": product.id}) }}" class="thumb"><img src="{{ product.photos[0].url }}" alt=""></a>
                 <a href="{{ path("unoegohh_shop_item", {"id": product.id}) }}" class="title">{{ product.name }} <br/> <br/></a>
-                <p class="colr bold price">{{ product.price }} руб.</p>
-                {% if category.withOutCart != 1 %}
-                    <a href="#"    ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="cart">&nbsp;</a>
+                {% if product.price %}
+                    <p class="colr bold price">{{ product.price }} руб.</p>
+                    {% if category.withOutCart != 1 %}
+                        <a href="#"    ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="cart">&nbsp;</a>
+                    {% endif %}
                 {% endif %}
             </div>
             <div class="big_li_sec_right">
@@ -47,8 +49,10 @@
                 <br>
                 <div class="clear"></div>
                 <a href="{{ path("unoegohh_shop_item", {"id": product.id}) }}" class="simplebtnsmall right"><span>Подробнее</span></a>
-                {% if category.withOutCart != 1 %}
-                    <a href="#" ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="simplebtnsmall right btnmarg"><span>Добавить в корзину</span></a>
+                {% if product.price %}
+                    {% if category.withOutCart != 1 %}
+                        <a href="#" ng-click="addToCart({{ product.id }}, {{ product.price }},count,'{{ product.name }}', '{{ product.photos[0].url }}')" class="simplebtnsmall right btnmarg"><span>Добавить в корзину</span></a>
+                    {% endif %}
                 {% endif %}
             </div>
         </li>

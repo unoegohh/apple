@@ -165,8 +165,10 @@
                     <li>
                         <a href="{{ path("unoegohh_shop_item", {"id": item.id}) }}"  class="thumb"><img  src="{{ item.photos[0].url }}" alt="" /></a>
                         <a href="{{ path("unoegohh_shop_item", {"id": item.id}) }}" class="title">{{ item.name }} <br/>{{ item.getCategoryId.name }}</a>
-                        <p class="colr bold price">{{ item.price }} руб.</p>
-                        <a href="#" class="cart"   ng-click="addToCart({{ item.id }}, {{ item.price }},count,'{{ item.name }}', '{{ item.photos[0].url }}')">&nbsp;</a>
+                        {% if item.price %}
+                            <p class="colr bold price">{{ item.price }} руб.</p>
+                            <a href="#" class="cart"   ng-click="addToCart({{ item.id }}, {{ item.price }},count,'{{ item.name }}', '{{ item.photos[0].url }}')">&nbsp;</a>
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>
