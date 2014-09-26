@@ -28,7 +28,7 @@ class Item
     protected $description;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="integer", nullable=true)
      */
     protected $price;
 
