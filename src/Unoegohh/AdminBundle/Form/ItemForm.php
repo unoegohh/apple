@@ -14,7 +14,7 @@ class ItemForm extends AbstractType
             ->add('name')
             ->add('description', "textarea")
             ->add('main_page')
-            ->add('price', "integer")
+            ->add('price', "integer", array("required" => false))
             ->add('active', null, array("required" => false))
             ->add('category_id', null, array("required" => true))
         ;
