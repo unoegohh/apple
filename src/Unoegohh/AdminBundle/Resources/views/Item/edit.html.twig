@@ -42,6 +42,7 @@
             });
             $(document).on('click', '.remove_image',function(e){
                 e.preventDefault();
+                console.log(1);
 
                 var href =$(this).attr("href");
                 var $parent = $(this).parents(".gallery-image");
@@ -68,7 +69,7 @@
                     }else{
 
                         var $gallery  = $(".gallery .row");
-                        var $item = $('<div class="col-sm-4 gallery-image"><img src="' +data.msg + '" alt="image" width="134" height="89"><div class="gallery-image-options text-center"><div class="btn-group btn-group-sm"><a href="' +data.msg + '" class="gallery-link btn btn-sm btn-alt btn-default">Просмотр</a><a href="/admin/food/photo/remove/' +data.id + '" class="btn btn-sm btn-alt btn-default remove_image" data-toggle="tooltip" title="" data-original-title="Удалить"><i class="fa fa-times"></i></a></div></div></div>');
+                        var $item = $('<div class="col-sm-4 gallery-image"><img src="' +data.msg + '" alt="image" width="134" height="89"><div class="gallery-image-options text-center"><div class="btn-group btn-group-sm"><a href="' +data.msg + '" class="gallery-link btn btn-sm btn-alt btn-default">Просмотр</a><a href="/admin/item/photo/remove/' +data.id + '" class="btn btn-sm btn-alt btn-default remove_image" data-toggle="tooltip" title="" data-original-title="Удалить"><i class="fa fa-times"></i></a></div></div></div>');
                         $gallery.append($item);
                     }
                     $("#imgInp").val("");
