@@ -40,7 +40,9 @@
         <div class="desc">
             <div class="des_head">
                 <h4 class="colr left">Описание</h4>
-                <h4 class="black right">{{ product.price }} руб.</h4>
+                {% if product.price %}
+                    <h4 class="black right">{{ product.price }} руб.</h4>
+                {% endif %}
             </div>
             <div class="clear"></div>
             <div class="quickreview">
