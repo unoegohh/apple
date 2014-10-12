@@ -1,0 +1,90 @@
+{% extends "UnoegohhShopBundle:Default:index.html.twig" %}
+
+{% block main %}
+    <div class="col2">
+        <h2 class="heading">Статус заказа</h2>
+        <div class="contact">
+
+            <form class="contact" method="POST" action="?">
+                {{ form_errors(form) }}
+                {{ form_row(form._token) }}
+                <div class="contact_form" style="margin: 0 20px 0 0 ">
+                    <ul class="forms">
+                        <li class="txt">Номер заказа</li>
+                        <li class="inputfield">
+                            {{ form_widget(form.number, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+                        <li class="txt">Email</li>
+                        <li class="inputfield">
+                            {{ form_widget(form.email, {'attr' :{'class' : 'bar'}}) }}
+                        </li>
+                    </ul>
+                    <ul class="forms">
+
+                        <li>
+                            <input type="submit" name="submit" value="Проверить" class="simplebtnsmall" />
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="float: left;width:280px">
+                {% if data is not same as (true) %}
+                    <h3>Статус вашего заказа</h3>
+
+
+
+                    {% if data.status == 1 %}
+                        <div class="alert alert-warning">
+                            <p> В обработке</p>
+                        </div>
+                    {% elseif data.status == 2 %}
+                        <div class="alert alert-success">
+                            <p> Принят</p>
+                        </div>
+                    {% elseif data.status == 3 %}
+                        <div class="alert alert-success">
+                            <p> Доставлен</p>
+                        </div>
+                    {% elseif data.status == 4 %}
+                        <div class="alert alert-danger">
+                            <p> Отклонен</p>
+                        </div>
+                    {% endif %}
+                {% elseif data is  same as (false)  %}
+                    <div class="alert alert-danger">
+                        <p> Заказ не найден</p>
+                    </div>
+                {% endif %}
+
+                </div>
+            </form>
+        </div>
+        <style>
+            .alert {
+                padding: 15px;
+                font-size: 15px;
+                margin-bottom: 20px;
+                border: 1px solid transparent;
+                border-radius: 4px;
+            }
+            .alert-danger {
+                 color: #a94442;
+                 background-color: #f2dede;
+                 border-color: #ebccd1;
+             }
+            .alert-warning {
+                 color: #8a6d3b;
+                 background-color: #fcf8e3;
+                 border-color: #faebcc;
+             }
+            .alert-success {
+                color: #3c763d;
+                background-color: #dff0d8;
+                border-color: #d6e9c6;
+            }
+        </style>
+    </div>
+
+{% endblock %}

@@ -55,5 +55,28 @@ class DefaultController extends Controller
         return $this->render('UnoegohhShopBundle:Default:contactSent.html.twig');
     }
 
+    public function orderStatusAction(Request $request)
+    {
+        $form = $this->createFormBuilder()
+            ->add('email', 'email')
+            ->add('number', 'text')
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        $data = true;
+        if($form->isValid()){
+            $order = $form->getData();
+            $em = $this->getDoctrine()->getManager();
+            $data = $em->getRepository("UnoegohhEntitiesBundle:Order")->findOneBy(array(
+                'id' => $order['number'],
+                'email' => $order['email']
+            ));
+        }
+        return $this->render('UnoegohhShopBundle:Default:orderStatus.html.twig',array(
+            'form' => $form->createView(),
+            'data' => $data
+        ));
+    }
 
 }
