@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="077755bf-00f9-4106-a6ab-72e1a97d8eeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/orderStatus.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/ddsmoothmenu.css" afterPath="$PROJECT_DIR$/web/css/ddsmoothmenu.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="apple.iws" />
@@ -32,8 +30,12 @@
       <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="27" selection-start="5182" selection-end="5182" vertical-scroll-proportion="23.75" vertical-offset="2190" max-vertical-offset="3270">
+            <state line="68" column="14" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-10.625" vertical-offset="765" max-vertical-offset="3450">
               <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,23 +45,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/DefaultController.php">
+      <file leaf-file-name="ddsmoothmenu.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/ddsmoothmenu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="20" selection-start="2412" selection-end="2412" vertical-scroll-proportion="-7.2916665" vertical-offset="800" max-vertical-offset="1305">
+            <state line="3" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.10638298" vertical-offset="0" max-vertical-offset="2535">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderStatus.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="20" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1320">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderStatus.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/orderStatus.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="54" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.527845" vertical-offset="532" max-vertical-offset="1425">
-              <folding>
-                <element signature="e#364#391#0" expanded="true" />
-                <element signature="e#1240#1271#0" expanded="true" />
-              </folding>
+            <state line="85" column="13" selection-start="3125" selection-end="3125" vertical-scroll-proportion="-53.125" vertical-offset="0" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactSent.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contactSent.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="16" selection-start="129" selection-end="306" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,7 +84,7 @@
       <file leaf-file-name="AdminOrder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/AdminOrder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="521" selection-end="527" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="615">
+            <state line="17" column="25" selection-start="521" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -77,15 +94,6 @@
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="25" selection-start="496" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="50" selection-start="2070" selection-end="2075" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -103,16 +111,7 @@
       <file leaf-file-name="contact.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contact.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="0" selection-end="1855" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/StaticPage/edit.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+            <state line="7" column="29" selection-start="0" selection-end="1855" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -140,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/composer.json" />
@@ -187,17 +185,19 @@
         <option value="$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/edit.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/item.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/EntitiesBundle/Entity/MainBanner.php" />
-        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/orderStatus.html.twig" />
+        <option value="$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/ddsmoothmenu.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +225,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,42 +254,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -860,11 +823,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -959,14 +923,18 @@
       <created>1411934228828</created>
       <updated>1411934228828</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="erferf">
+      <created>1413123005430</created>
+      <updated>1413123005430</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="778" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32765958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -979,12 +947,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1003,9 +971,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1027,11 +995,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/contentslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="63" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3525" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="236" column="47" selection-start="126164" selection-end="126164" vertical-scroll-proportion="0.0" vertical-offset="3146" max-vertical-offset="3630" />
@@ -1080,11 +1043,6 @@
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Order/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="18" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contactSent.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="129" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Item/orderSent.html.twig">
@@ -1214,30 +1172,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/Item/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="331" selection-start="2999" selection-end="3003" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="2295">
-          <folding />
-        </state>
+        <state line="71" column="331" selection-start="2999" selection-end="3003" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="2295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/MainBanner/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="1560">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="1560" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/MainBanner/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/MainBanner/remove.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Resources/views/StaticPage/edit.html.twig">
@@ -1277,22 +1227,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="0" selection-end="1855" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="735">
+        <state line="7" column="29" selection-start="0" selection-end="1855" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="20" selection-start="2412" selection-end="2412" vertical-scroll-proportion="-7.2916665" vertical-offset="800" max-vertical-offset="1305">
+        <state line="66" column="20" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/AdminOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="521" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/orderStatus.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="13" selection-start="3125" selection-end="3125" vertical-scroll-proportion="-53.125" vertical-offset="0" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/contactSent.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="129" selection-end="306" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="27" selection-start="5182" selection-end="5182" vertical-scroll-proportion="23.75" vertical-offset="2190" max-vertical-offset="3270">
+        <state line="68" column="14" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-10.625" vertical-offset="765" max-vertical-offset="3450">
           <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1301,20 +1276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/AdminBundle/Form/AdminOrder.php">
+    <entry file="file://$PROJECT_DIR$/web/css/ddsmoothmenu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="521" selection-end="527" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="615">
+        <state line="3" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.10638298" vertical-offset="0" max-vertical-offset="2535">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unoegohh/ShopBundle/Resources/views/Default/orderStatus.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="54" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.527845" vertical-offset="532" max-vertical-offset="1425">
-          <folding>
-            <element signature="e#364#391#0" expanded="true" />
-            <element signature="e#1240#1271#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

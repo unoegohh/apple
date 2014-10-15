@@ -47,13 +47,25 @@
         <a href="/"><img src="/IremontLogo.png" style="height: 75px; margin: 0 0 0 15px" alt="" /></a>
     </div>
     <div class="navigation">
+        <style>
+            #header_phone {
+                font-size: 25px;
+                color: #ebebeb;
+            }
+            #header_phone span {
+                color: #28aae1;
+            }
+        </style>
+        <div id="header_phone"><span>(937)</span> 989-00-60</div>
+        <div style="float: right;">
         <div class="left_curve">&nbsp;</div>
-        <div id="smoothmenu1" class="ddsmoothmenu">
-                {#{{ render(controller('UnoegohhShopBundle:Render:menu')) }}#}
+            <div id="smoothmenu1" class="ddsmoothmenu">
+                    {#{{ render(controller('UnoegohhShopBundle:Render:menu')) }}#}
 
-                {{ render(controller('UnoegohhShopBundle:Render:menu')) }}
+                    {{ render(controller('UnoegohhShopBundle:Render:menu')) }}
 
-            <br style="clear: left" />
+                <br style="clear: left" />
+            </div>
         </div>
     </div>
 </div>
