@@ -14,7 +14,7 @@ unoegohh_shop_item:
     path:     /item/{id}
     defaults: { _controller: UnoegohhShopBundle:Shop:item }
 
-unoegohh_shop_item:
+unoegohh_shop_order_check:
     path:     /orderCheck
     defaults: { _controller: UnoegohhShopBundle:Default:orderStatus }
 
